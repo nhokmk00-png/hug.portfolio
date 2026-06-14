@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản Trị</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-container">
+        
+        <aside class="sidebar">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="#projects-list" class="active">Quản lý Dự án</a></li>
+                <li><a href="#skills-list">Quản lý Kỹ năng</a></li>
+                <li><a href="index.html">Đăng xuất</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            
+            <header>
+                <h1>Xin chào, Tạ Huy Hùng</h1>
+                <img src="image/avt.jpg" alt="Avatar" style="width: 45px; height: 45px; border-radius: 50%;">
+            </header>
+
+            <div class="admin-data">
+                
+                <section id="projects-list" class="admin-card">
+                    <h3>Quản lý Dự án</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 10%;">STT</th>
+                                <th style="width: 30%;">Tên dự án</th>
+                                <th style="width: 40%;">Mô tả</th>
+                                <th style="width: 20%;">Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Hệ thống quản lý bán hàng</td>
+                                <td>Thiết kế UI/UX và logic nghiệp vụ.</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Hệ thống quản lý đặt phòng</td>
+                                <td>Thiết kế giao diện và chức năng đặt phòng.</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Trang web cá nhân</td>
+                                <td>Xây dựng portfolio cá nhân.</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section id="skills-list" class="admin-card">
+                    <h3>Quản lý Kỹ năng</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Icon</th>
+                                <th>Tên kỹ năng</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="image/uiux.png" class="icon-small"></td>
+                                <td>Thiết kế UI/UX</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><img src="image/python.png" class="icon-small"></td>
+                                <td>Lập trình Python</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><img src="image/sql.png" class="icon-small"></td>
+                                <td>SQL Server / MySQL</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><img src="image/java.png" class="icon-small"></td>
+                                <td>Lập trình Java</td>
+                                <td>
+                                    <button class="btn-edit">Sửa</button>
+                                    <button class="btn-delete">Xóa</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>

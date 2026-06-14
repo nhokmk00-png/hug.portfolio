@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Portfolio Cá Nhân</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio</h1>
+            <input type="checkbox" id="menu-toggle" class="menu-box">
+
+            <label for="menu-toggle" class="menu-icon">
+                <img src="image/menu-icon.png" alt="Menu">
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#projects">Dự án</a></li>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                    <li><a href="#login">Đăng nhập</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="about-content">
+                    <p class="greeting">Xin chào, tôi là</p>
+                    <h2>Tạ Huy Hùng</h2>
+                    <h3 class="role">Sinh viên chuyên ngành Hệ thống Thông tin quản lý</h3>
+                    <p class="desc">Tôi đam mê phân tích dữ liệu và xây dựng các hệ thống quản lý.</p>
+                </div>
+
+                <div class="about-image">
+                    <img src="image/avt.jpg" alt="Avatar">
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Các dự án nổi bật</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Dự án 1: Hệ thống quản lý bán hàng</h3>
+                        <p>Thiết kế UI/UX và xây dựng logic nghiệp vụ cho hệ thống quản lý bán hàng</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Dự án 2: Hệ thống quản lý đặt phòng khách sạn</h3>
+                        <p>Thiết kế giao diện người dùng và phát triển chức năng quản lý đặt phòng</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Dự án 3: Trang web cá nhân</h3>
+                        <p>Xây dựng trang web cá nhân thể hiện portfolio và thông tin liên hệ</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Kỹ năng chuyên môn</h2>
+                <div class="skills-grid">
+                    <div class="skills-card">
+                        <img src="image/uiux.png" alt="UI/UX">
+                        <p>Thiết kế UI/UX</p>
+                    </div>
+                    <div class="skills-card">
+                        <img src="image/python.png" alt="Python">
+                        <p>Lập trình Python</p>
+                    </div>
+                    <div class="skills-card">
+                        <img src="image/sql.png" alt="Database">
+                        <p>SQL Server/MySQL</p>
+                    </div>
+                    <div class="skills-card">
+                        <img src="image/java.png" alt="Java">
+                        <p>Lập trình Java</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact">
+            <h2>Liên hệ: 079.459.3886</h2>
+            <p>Email: nhokmk001@gmail.com</p>
+        </footer>
+
+        <div id="login" class="login-ad">
+            <div class="login-content">
+                <a href="#" class="close-btn">&times;</a>
+                <form class="login-form" action="admin.html">
+                    <h2>Đăng nhập</h2>
+                    <div class="input">
+                        <label for="username">Tên đăng nhập:</label>
+                        <input type="text" id="username" placeholder="Tài khoản" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">Mật khẩu:</label>
+                        <input type="password" id="password" placeholder="Mật khẩu" required>
+                    </div>
+                    <button type="submit" class="btn-login-submit">Đăng nhập</button>
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>
